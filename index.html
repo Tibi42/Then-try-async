@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Wikipédia</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/apiWiki.css">
+</head>
+
+<body>
+    <div class="hero-header">
+        <h2>Bienvenue sur le moteur de recherche Wikipédia</h2>
+        <p>Recherchez rapidement des articles Wikipédia en français et découvrez des informations sur tous les sujets
+            qui vous intéressent.</p>
+    </div>
+    <div class="container-glass">
+        <h1>Recherche sur Wikipédia</h1>
+        <form class="form-recherche">
+            <input class="champ-recherche" type="text" placeholder="Entrez votre recherche..."
+                aria-label="Recherche Wikipédia">
+            <button class="bouton-recherche" type="submit">Rechercher</button>
+        </form>
+        <div class="resultats">
+            <!-- Les résultats de la recherche apparaîtront ici -->
+            <!-- Exemple de résultat statique -->
+            <div class="carte-resultat">
+                <div class="titre-resultat">Titre de l'article</div>
+                <div class="extrait-resultat">Ceci est un extrait de l'article Wikipédia correspondant à votre
+                    recherche.</div>
+                <a class="lien-resultat" href="#" target="_blank">Lire l'article complet</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="/assets/apiWiki.js"></script>
+</body>
+
+</html>
